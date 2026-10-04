@@ -1,7 +1,7 @@
 # Assignment 1 Plan
 
 **HealthCoverSim - Marsya Putra**
-**4 October 2026 · Planning only; aplikasi belum dibuat.**
+**4 October 2026 · Aplikasi sudah dibuat di `Assignment 1/`; rekaman video dan submission masih menunggu.**
 Source: [[Assignment_1_HealthCoverSim.pdf]], seluruh 7 halaman.
 
 ## Bentuk Aplikasi
@@ -10,7 +10,7 @@ React + Node.js/Express + SQLite + CSS biasa, sesuai assignment. Cukup **satu ta
 
 UI cukup empat tampilan: list, create, detail dan edit. Create/edit memakai form yang sama. Detail menampilkan breakdown serta tombol edit/delete. Applicant 2 muncul hanya untuk Couple/Family. Tidak perlu login, dashboard, integrasi insurer atau deployment untuk memenuhi brief.
 
-Gunakan React/Vite, Express dan `better-sqlite3`, JavaScript dan CSS biasa. Node yang tersedia `22.23.1` memenuhi [persyaratan Vite](https://vite.dev/guide/). Dependencies dan source aplikasi baru dibuat ketika implementasi diminta. Repo: [marputtt/healthcoversim-assignment-1](https://github.com/marputtt/healthcoversim-assignment-1), private.
+Gunakan React/Vite, Express dan `better-sqlite3`, JavaScript dan CSS biasa. Node yang tersedia `22.23.1` memenuhi [persyaratan Vite](https://vite.dev/guide/). Implementasi telah disetujui dan source aplikasi berada di `Assignment 1/`. Repo: [marputtt/healthcoversim-assignment-1](https://github.com/marputtt/healthcoversim-assignment-1), private.
 
 ## Satu Tabel
 
@@ -69,14 +69,15 @@ API cukup GET `/api/quotes`, GET `/api/quotes/:id`, POST create, PUT update dan 
 
 ## Urutan Kerja
 
-- [ ] Buat calculator dan cek worked example terlebih dahulu.
-- [ ] Buat `db.js`, satu tabel, dan API CRUD; cek data tetap ada setelah restart.
-- [ ] Buat form bersama, list/detail/edit dan breakdown dengan CSS sederhana.
-- [ ] Uji input invalid dari form dan langsung ke API; cek navigasi dan tampilan.
-- [ ] Setelah aplikasi selesai dan diuji, tulis README lengkap dan `Video Script.md` sesuai tampilan aplikasi yang benar-benar tersedia.
-- [ ] Verifikasi setup dari clean checkout, siapkan source ZIP, lalu rekam video 3-5 menit.
+- [x] Buat calculator dan cek worked example terlebih dahulu.
+- [x] Buat `db.js`, satu tabel, dan API CRUD; cek data tetap ada setelah restart.
+- [x] Buat form bersama, list/detail/edit dan breakdown dengan CSS sederhana.
+- [x] Uji input invalid dari form dan langsung ke API; cek navigasi dan tampilan.
+- [x] Setelah aplikasi selesai dan diuji, tulis README lengkap dan `Video Script.md` sesuai tampilan aplikasi yang benar-benar tersedia.
+- [ ] Verifikasi setup dari clean checkout dan siapkan source ZIP.
+- [ ] Pemilik memeriksa kode/perhitungan sendiri, merekam video 3-5 menit, memberikan akses marker dan mengunggah submission.
 
-Gunakan struktur sederhana: `server/` untuk API/database/calculator dan `frontend/` untuk React/CSS, satu root package dan lockfile. Jangan membuat source atau memasang dependencies pada tahap planning ini.
+Struktur aplikasi di `Assignment 1/`: `server/` untuk API/database/calculator, `shared/` untuk validasi, `frontend/` untuk React/CSS dan `test/` untuk pemeriksaan. Satu package dan lockfile; jalankan perintah dari folder tersebut.
 
 ## Pemeriksaan Wajib
 
@@ -94,7 +95,7 @@ Patokan utama dari PDF: Family, usia 40/No + 35/Yes, Silver, Standard, Yearly 5%
 
 Cek juga Monthly tidak didiskon; usia 30 vs 31; extras-only tanpa LHC; Not sure dengan warning per applicant; Couple/Family tanpa Applicant 2; usia negatif/0/di luar 18-100; discount di luar batas; Single dengan field Applicant 2 lama; edit memperbarui breakdown; dan invalid request langsung ke API. Untuk pilihan eksplisit None/None, PDF tidak melarangnya: total dasar 0 ditambah Family fee jika Family. Revisi bila dosen memberi klarifikasi lain.
 
-Gunakan test runner bawaan Node untuk calculator/API dan pemeriksaan browser untuk CRUD serta form. Checklist ini belum merupakan hasil pengujian aplikasi. Target rubrik: CRUD/submission 35, explanation 20, calculation/validation 25, UI/presentation 20. Utamakan benar dan mudah dijelaskan.
+Gunakan test runner bawaan Node untuk calculator/API dan pemeriksaan browser untuk CRUD serta form. Hasil aktual: 55 pemeriksaan otomatis lulus, build berhasil, dan CRUD serta contoh perhitungan sudah diperiksa melalui browser. Detail ada di [[Assignment 1/README]]. Target rubrik: CRUD/submission 35, explanation 20, calculation/validation 25, UI/presentation 20. Utamakan benar dan mudah dijelaskan.
 
 ## README Akhir
 
@@ -139,4 +140,4 @@ Naskah wajib memperlihatkan create/view, monthly/yearly, edit/update/delete, con
 
 ## Related Notes
 
-[[Cloud Web Class Index]] · [[README]]
+[[Cloud Web Class Index]] · [[Assignment 1/README]] · [[Assignment 1/Video Script]]

@@ -1,3 +1,4 @@
 - [[Assignment 1 Plan]]
-- [[README]]
+- [[Assignment 1/README]]
+- [[Assignment 1/Video Script]]
 - [[Assignment_1_HealthCoverSim.pdf]]
