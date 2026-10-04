@@ -1,0 +1,31 @@
+# Local machine files
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+
+# Dependencies, builds, runtime data and submission packages
+node_modules/
+dist/
+build/
+coverage/
+data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.zip
+tmp/
+
+# Course handout stays in the local vault
+Assignment_1_HealthCoverSim.pdf
+
+# Personal editor and workflow state
+AGENTS.md
+.codex/
+.obsidian/workspace*.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/hotkeys.json
+.obsidian/appearance.json
