@@ -142,7 +142,7 @@ npm test
 npm run build
 ```
 
-On 4 October 2026, **55 automated checks passed**: pricing and validation, API CRUD, persistence after reopening SQLite, invalid writes, malformed JSON and parameterised SQL handling. The production build also passed after relocating the app into `Assignment 1/`. The database integrity check returned `ok` and confirmed one application table.
+On 4 October 2026, **55 automated checks passed**: pricing and validation, API CRUD, persistence after reopening SQLite, invalid writes, malformed JSON and parameterised SQL handling. A fresh checkout also passed `npm ci`, database initialisation, all 55 tests and the production build. The built server returned the React page on direct quote routes and served the API correctly. These checks passed after relocating the app into `Assignment 1/`. The database integrity check returned `ok` and confirmed one application table.
 
 Browser checks covered create/list/detail/edit/delete, the worked example, Monthly updates, Not sure warnings, missing Applicant 2, Single extras-only cover, direct detail reload and narrow/wide layouts. Dropdown arrows and form wording were revised following the owner's feedback.
 

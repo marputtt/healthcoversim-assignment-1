@@ -74,7 +74,7 @@ API cukup GET `/api/quotes`, GET `/api/quotes/:id`, POST create, PUT update dan 
 - [x] Buat form bersama, list/detail/edit dan breakdown dengan CSS sederhana.
 - [x] Uji input invalid dari form dan langsung ke API; cek navigasi dan tampilan.
 - [x] Setelah aplikasi selesai dan diuji, tulis README lengkap dan `Video Script.md` sesuai tampilan aplikasi yang benar-benar tersedia.
-- [ ] Verifikasi setup dari clean checkout dan siapkan source ZIP.
+- [x] Verifikasi setup dari clean checkout dan siapkan source ZIP (`Assignment 1/HealthCoverSim_Source.zip`).
 - [ ] Pemilik memeriksa kode/perhitungan sendiri, merekam video 3-5 menit, memberikan akses marker dan mengunggah submission.
 
 Struktur aplikasi di `Assignment 1/`: `server/` untuk API/database/calculator, `shared/` untuk validasi, `frontend/` untuk React/CSS dan `test/` untuk pemeriksaan. Satu package dan lockfile; jalankan perintah dari folder tersebut.
