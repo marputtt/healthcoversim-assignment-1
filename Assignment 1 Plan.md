@@ -10,7 +10,7 @@ React + Node.js/Express + SQLite + CSS biasa, sesuai assignment. Cukup **satu ta
 
 UI cukup empat tampilan: list, create, detail dan edit. Create/edit memakai form yang sama. Detail menampilkan breakdown serta tombol edit/delete. Applicant 2 muncul hanya untuk Couple/Family. Tidak perlu login, dashboard, integrasi insurer atau deployment untuk memenuhi brief.
 
-Gunakan React/Vite, Express dan `better-sqlite3`, JavaScript dan CSS biasa. Node yang tersedia `22.23.1` memenuhi [persyaratan Vite](https://vite.dev/guide/). Implementasi telah disetujui dan source aplikasi berada di `Assignment 1/`. Repo: [marputtt/healthcoversim-assignment-1](https://github.com/marputtt/healthcoversim-assignment-1), private.
+Gunakan React/Vite, Express dan `better-sqlite3`, JavaScript dan CSS biasa. Node yang tersedia `22.23.1` memenuhi [persyaratan Vite](https://vite.dev/guide/). Implementasi telah disetujui dan source aplikasi berada di `Assignment 1/`. Repo: [marputtt/healthcoversim-assignment-1](https://github.com/marputtt/healthcoversim-assignment-1), public.
 
 ## Satu Tabel
 
@@ -75,7 +75,7 @@ API cukup GET `/api/quotes`, GET `/api/quotes/:id`, POST create, PUT update dan 
 - [x] Uji input invalid dari form dan langsung ke API; cek navigasi dan tampilan.
 - [x] Setelah aplikasi selesai dan diuji, tulis README lengkap dan `Video Script.md` sesuai tampilan aplikasi yang benar-benar tersedia.
 - [x] Verifikasi setup dari clean checkout dan siapkan source ZIP (`Assignment 1/HealthCoverSim_Source.zip`).
-- [ ] Pemilik memeriksa kode/perhitungan sendiri, merekam video 3-5 menit, memberikan akses marker dan mengunggah submission.
+- [ ] Pemilik memeriksa kode/perhitungan sendiri, merekam video 3-5 menit, mengunggah submission. Akses marker sudah tersedia melalui repo public.
 
 Struktur aplikasi di `Assignment 1/`: `server/` untuk API/database/calculator, `shared/` untuk validasi, `frontend/` untuk React/CSS dan `test/` untuk pemeriksaan. Satu package dan lockfile; jalankan perintah dari folder tersebut.
 
@@ -135,7 +135,7 @@ Naskah wajib memperlihatkan create/view, monthly/yearly, edit/update/delete, con
 - Repo berisi source, README dan database setup, dapat diakses marker.
 - Source ZIP ke LMS, tanpa `node_modules` dan build. Keluarkan juga secrets, `.git`, database lokal dan editor/workflow state.
 - Video rekaman 3-5 menit ke LMS; putar ulang sebelum upload.
-- Repo private memerlukan akses marker sebelum deadline. Konfirmasi akunnya terlebih dahulu; belum ada invitation atau LMS submission.
+- Repo sudah public dan akses source tanpa login telah diperiksa pada 4 October 2026. Invitation marker tidak diperlukan; LMS submission masih belum dilakukan.
 - Deadline, student identifier dan batas upload tidak tercantum di PDF; cek course portal sebelum submission. Jangan mengarang detailnya.
 
 ## Related Notes

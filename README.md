@@ -19,7 +19,7 @@ npm ci
 npm run db:init
 ```
 
-The repository is private, so cloning requires an account with access. For the source ZIP, extract it and open a terminal inside the extracted `HealthCoverSim` folder, then run `npm ci` and `npm run db:init`.
+The repository is public, so the marker can clone it without an invitation. For the source ZIP, extract it and open a terminal inside the extracted `HealthCoverSim` folder, then run `npm ci` and `npm run db:init`.
 
 All commands below run inside the application folder, which contains `package.json`.
 
@@ -148,7 +148,7 @@ On 4 October 2026, **55 automated checks passed**: pricing and validation, API C
 
 Browser checks covered create/list/detail/edit/delete, the worked example, Monthly updates, Not sure warnings, missing Applicant 2, Single extras-only cover, direct detail reload and narrow/wide layouts. Dropdown arrows and form wording were revised following the owner's feedback.
 
-The implementation covers the software portions of the rubric: CRUD and persistence, premium explanation, calculation and validation, and the interface. The submission portions still require the owner's recorded video, marker access to the private repository and LMS upload. These checks do not predict a mark.
+The implementation covers the software portions of the rubric: CRUD and persistence, premium explanation, calculation and validation, and the interface. The submission portions still require the owner's recorded video and LMS upload. The public GitHub repository is accessible without an invitation. These checks do not predict a mark.
 
 ## Limitation
 
