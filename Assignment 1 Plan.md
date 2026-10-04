@@ -95,7 +95,7 @@ Patokan utama dari PDF: Family, usia 40/No + 35/Yes, Silver, Standard, Yearly 5%
 
 Cek juga Monthly tidak didiskon; usia 30 vs 31; extras-only tanpa LHC; Not sure dengan warning per applicant; Couple/Family tanpa Applicant 2; usia negatif/0/di luar 18-100; discount di luar batas; Single dengan field Applicant 2 lama; edit memperbarui breakdown; dan invalid request langsung ke API. Untuk pilihan eksplisit None/None, PDF tidak melarangnya: total dasar 0 ditambah Family fee jika Family. Revisi bila dosen memberi klarifikasi lain.
 
-Gunakan test runner bawaan Node untuk calculator/API dan pemeriksaan browser untuk CRUD serta form. Hasil aktual: 55 pemeriksaan otomatis lulus, build berhasil, dan CRUD serta contoh perhitungan sudah diperiksa melalui browser. Detail ada di [[Assignment 1/README]]. Target rubrik: CRUD/submission 35, explanation 20, calculation/validation 25, UI/presentation 20. Utamakan benar dan mudah dijelaskan.
+Gunakan test runner bawaan Node untuk calculator/API dan pemeriksaan browser untuk CRUD serta form. Hasil aktual: 55 pemeriksaan otomatis lulus, build berhasil, dan CRUD serta contoh perhitungan sudah diperiksa melalui browser. Detail ada di [[README]]. Target rubrik: CRUD/submission 35, explanation 20, calculation/validation 25, UI/presentation 20. Utamakan benar dan mudah dijelaskan.
 
 ## README Akhir
 
@@ -140,4 +140,4 @@ Naskah wajib memperlihatkan create/view, monthly/yearly, edit/update/delete, con
 
 ## Related Notes
 
-[[Cloud Web Class Index]] · [[Assignment 1/README]] · [[Assignment 1/Video Script]]
+[[Cloud Web Class Index]] · [[README]] · [[Assignment 1/Video Script]]
